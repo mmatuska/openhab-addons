@@ -19,6 +19,8 @@ Successfully tested are internet radios:
  * [Roku SoundBridge M1001](https://soundbridge.roku.com/soundbridge/index.php)
  * [Dual IR 3a](https://www.dual.de/produkte/digitalradio/radio-station-ir-3a/)
  * [Teufel 3sixty](https://www.teufel.de/stereo/radio-3sixty-p16568.html)
+ * [Kenwood M-7000S](https://www.kenwood.eu/home/systems/M-7000S-B)
+ * [Soundmaster ICD2200SI](https://www.soundmaster-audio.com/product/soundmaster-icd2200-under-cabinet-internet-radio-with-bluetooth-cd-player/)
 
 But in principle, all internet radios based on the [Frontier Silicon chipset](https://www.frontier-silicon.com/) should be supported because they share the same API.
 So It is very likely that other internet radio models of the same manufacturers do also work.
@@ -82,6 +84,8 @@ This list is just an example how the mapping looks like for some of the devices,
 | Auna KR200 Kitchen Radio | Internet Radio | Spotify                 | -            | Music Player | DAB Radio | FM Radio | AUX in       | -            | -          | -         |-       |
 | Auna Connect CD          | Internet Radio | Spotify                 | -            | Music Player | DAB Radio | FM Radio | CD           | Bluetooth    | AUX in    | -         | -      |
 | Teufel 3sixty            | Internet Radio | Spotify                 | -            | USB/Network  | DAB Radio | FM Radio | Bluetooth    | AUX in       | -          | -         | -      |
+| Kenwood M-7000S          | Internet Radio | Podcasts                | Spotify      | DAB Radio    | FM Radio  | Bluetooth | CD          | USB          | AUX in    | -         | -      |
+| Soundmaster ICD2200SI    | Internet Radio | Podcasts                | DAB Radio    | FM Radio     | Bluetooth | CD       | USB          | -            | -          | -         | -      |
 
 
 ## Full Example
