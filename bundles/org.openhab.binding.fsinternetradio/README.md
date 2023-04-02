@@ -20,6 +20,8 @@ Successfully tested are internet radios:
 - [Dual IR 3a](https://www.dual.de/produkte/digitalradio/radio-station-ir-3a/)
 - [Teufel 3sixty](https://www.teufel.de/stereo/radio-3sixty-p16568.html)
 - [Ruark R5](https://www.ruarkaudio.com/products/r5-high-fidelity-music-system)
+- Kenwood [M-7000S-S](https://www.kenwood.eu/home/systems/M-7000S-S/) and [M-7000S-B](https://www.kenwood.eu/home/systems/M-7000S-B/)
+- [Soundmaster ICD2200SI](https://www.soundmaster.de/en/products/kitchen-bathroom/193/kitchen-under-cabinet-music-centre-with-wlan-internet/dab/fm-radio-cd/mp3-usb-bluetooth)
 
 But in principle, all internet radios based on the [Frontier Silicon chipset](https://www.frontier-silicon.com/) should be supported because they share the same API.
 So it is very likely that other internet radio models of the same manufacturers do also work.
@@ -84,6 +86,8 @@ This list is just an example how the mapping looks like for some of the devices,
 | Auna Connect CD          | Internet Radio | Spotify                 | -            | Music Player | DAB Radio | FM Radio | CD           | Bluetooth    | AUX in    | -         | -      | - | - | - |
 | Teufel 3sixty            | Internet Radio | Spotify                 | -            | USB/Network  | DAB Radio | FM Radio | Bluetooth    | AUX in       | -          | -         | -      | - | - | - |
 | Ruark R5                 | Internet Radio | TIDAL                   | Deezer       | Amazon Music | Spotify   | Local Music | Music Player | DAB Radio | FM Radio   | Bluetooth | AUX in  | Phono | Optical | CD |
+| Kenwood M-7000S          | Internet Radio | Podcasts                | Spotify      | DAB Radio    | FM Radio  | Bluetooth | CD          | USB          | AUX in     | -         | -      | - | - | - |
+| Soundmaster ICD2200SI    | Internet Radio | Podcasts                | DAB Radio    | FM Radio     | Bluetooth | CD        | USB         | -            | -          | -         | -      | - | - | - |
 
 ## Full Example
 
