@@ -62,9 +62,9 @@
 
   <repositories>
     <repository>
-      <id>graalvm-ce-dev-builds-25.1.0-dev-20260508_0206</id>
+      <id>graalvm-ce-dev-builds</id>
       <url>https://github.com/graalvm/graalvm-ce-dev-builds/releases/download/25.1.0-dev-20260508_0206/</url>
-      <!-- GitHub release assets are not a standard Maven repository; use manually installed jars or published org.openhab.osgiify wrappers. -->
+      <!-- Intentionally pinned for the experimental FreeBSD GraalJS interpreter-mode test build (25.1.0-dev-20260508_0206): Maven model resolution does not reliably interpolate ${graalvm.version} in this repository URL. Update this URL together with graalvm.version. GitHub release assets are not a standard Maven repository, so use manually installed jars or published org.openhab.osgiify wrappers. -->
     </repository>
   </repositories>
 
